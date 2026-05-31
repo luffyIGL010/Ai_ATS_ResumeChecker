@@ -1,0 +1,82 @@
+2026-05-31 15:58:15,846 - INFO - Starting ATS Resume Analyzer API...
+2026-05-31 15:58:15,847 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-05-31 15:58:16,963 - WARNING - en_core_web_md not found — falling back to "en_core_web_sm
+2026-05-31 15:59:22,160 - INFO - Starting ATS Resume Analyzer API...
+2026-05-31 15:59:22,160 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-05-31 15:59:24,454 - INFO - Loaded en_core_web_md
+2026-05-31 15:59:24,454 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-05-31 16:00:14,153 - INFO - Loaded all-MiniLM-L6-v2
+2026-05-31 16:00:14,154 - INFO - All models loaded. API is ready to serve requests.
+2026-05-31 16:15:44,183 - INFO - Starting ATS Resume Analyzer API...
+2026-05-31 16:15:44,183 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-05-31 16:15:45,788 - INFO - Loaded en_core_web_md
+2026-05-31 16:15:45,788 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-05-31 16:15:59,222 - INFO - Loaded all-MiniLM-L6-v2
+2026-05-31 16:15:59,223 - INFO - All models loaded. API is ready to serve requests.
+2026-05-31 16:17:38,314 - ERROR - File parsing failed: failed to find libmagic.  Check your installation
+2026-05-31 16:17:43,615 - ERROR - File parsing failed: failed to find libmagic.  Check your installation
+2026-05-31 16:20:28,466 - INFO - parse_Resume_file: parsing file :Resume.pdf .pdf
+2026-05-31 16:20:28,532 - INFO - parse_resume_file: Extracted 3367 chars from Resume.pdf .pdf
+2026-05-31 16:20:28,532 - INFO - Parsed 'Resume.pdf .pdf': 3367 chars extracted
+2026-05-31 16:20:31,668 - WARNING - Groq resume parse: first attempt returned invalid JSON, retrying...
+2026-05-31 16:20:33,351 - INFO - Groq parsed summary: ''
+2026-05-31 16:20:33,351 - INFO - Groq parsed skills count: 28
+2026-05-31 16:20:33,351 - INFO - Groq parsed experience count: 0
+2026-05-31 16:21:03,568 - INFO - parse_Resume_file: parsing file :Resume.pdf .pdf
+2026-05-31 16:21:03,656 - INFO - parse_resume_file: Extracted 3367 chars from Resume.pdf .pdf
+2026-05-31 16:21:03,656 - INFO - Parsed 'Resume.pdf .pdf': 3367 chars extracted
+2026-05-31 16:21:05,722 - WARNING - Groq resume parse: first attempt returned invalid JSON, retrying...
+2026-05-31 16:21:12,433 - INFO - Groq parsed summary: ''
+2026-05-31 16:21:12,434 - INFO - Groq parsed skills count: 28
+2026-05-31 16:21:12,434 - INFO - Groq parsed experience count: 0
+2026-05-31 16:22:03,046 - INFO - Starting ATS Resume Analyzer API...
+2026-05-31 16:22:03,046 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-05-31 16:22:04,633 - INFO - Loaded en_core_web_md
+2026-05-31 16:22:04,633 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-05-31 16:22:16,210 - INFO - Loaded all-MiniLM-L6-v2
+2026-05-31 16:22:16,210 - INFO - All models loaded. API is ready to serve requests.
+2026-05-31 16:23:38,524 - INFO - parse_Resume_file: parsing file :Resume.pdf .pdf
+2026-05-31 16:23:38,592 - INFO - parse_resume_file: Extracted 3367 chars from Resume.pdf .pdf
+2026-05-31 16:23:38,592 - INFO - Parsed 'Resume.pdf .pdf': 3367 chars extracted
+2026-05-31 16:23:40,615 - WARNING - Groq resume parse: first attempt returned invalid JSON, retrying...
+2026-05-31 16:23:42,161 - INFO - Groq parsed summary: ''
+2026-05-31 16:23:42,161 - INFO - Groq parsed skills count: 28
+2026-05-31 16:23:42,161 - INFO - Groq parsed experience count: 0
+2026-05-31 16:23:44,545 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-31 16:24:45,758 - ERROR - Failed to fetch history from Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses?user_id=eq.87cfa1c4-b67f-40bf-9872-a2ef70377ab4&order=created_at.desc'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-31 16:24:48,225 - ERROR - Failed to fetch history from Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses?user_id=eq.87cfa1c4-b67f-40bf-9872-a2ef70377ab4&order=created_at.desc'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-31 16:24:52,931 - ERROR - Failed to fetch history from Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses?user_id=eq.87cfa1c4-b67f-40bf-9872-a2ef70377ab4&order=created_at.desc'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-31 16:32:16,070 - INFO - Starting ATS Resume Analyzer API...
+2026-05-31 16:32:16,070 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-05-31 16:32:17,658 - INFO - Loaded en_core_web_md
+2026-05-31 16:32:17,658 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-05-31 16:32:29,258 - INFO - Loaded all-MiniLM-L6-v2
+2026-05-31 16:32:29,259 - INFO - All models loaded. API is ready to serve requests.
+2026-05-31 16:33:24,058 - INFO - parse_Resume_file: parsing file :Resume.pdf .pdf
+2026-05-31 16:33:24,126 - INFO - parse_resume_file: Extracted 3367 chars from Resume.pdf .pdf
+2026-05-31 16:33:24,126 - INFO - Parsed 'Resume.pdf .pdf': 3367 chars extracted
+2026-05-31 16:33:26,004 - WARNING - Groq resume parse: first attempt returned invalid JSON, retrying...
+2026-05-31 16:33:27,752 - INFO - Groq parsed summary: ''
+2026-05-31 16:33:27,752 - INFO - Groq parsed skills count: 28
+2026-05-31 16:33:27,752 - INFO - Groq parsed experience count: 0
+2026-05-31 16:33:30,603 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-05-31 16:35:27,085 - INFO - Starting ATS Resume Analyzer API...
+2026-05-31 16:35:27,085 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-05-31 16:35:28,677 - INFO - Loaded en_core_web_md
+2026-05-31 16:35:28,677 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-05-31 16:35:38,113 - INFO - Loaded all-MiniLM-L6-v2
+2026-05-31 16:35:38,113 - INFO - All models loaded. API is ready to serve requests.
+2026-05-31 16:36:22,673 - INFO - parse_Resume_file: parsing file :Resume.pdf .pdf
+2026-05-31 16:36:22,740 - INFO - parse_resume_file: Extracted 3367 chars from Resume.pdf .pdf
+2026-05-31 16:36:22,740 - INFO - Parsed 'Resume.pdf .pdf': 3367 chars extracted
+2026-05-31 16:36:24,831 - WARNING - Groq resume parse: first attempt returned invalid JSON, retrying...
+2026-05-31 16:36:26,566 - INFO - Groq parsed summary: ''
+2026-05-31 16:36:26,566 - INFO - Groq parsed skills count: 28
+2026-05-31 16:36:26,566 - INFO - Groq parsed experience count: 0
+2026-05-31 16:36:28,793 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
