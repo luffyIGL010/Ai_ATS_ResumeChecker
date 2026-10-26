@@ -80,3 +80,31 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-05-31 16:36:26,566 - INFO - Groq parsed experience count: 0
 2026-05-31 16:36:28,793 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-07 01:06:33,730 - INFO - shutting down the api!!
+2026-10-26 13:43:48,181 - INFO - Starting ATS Resume Analyzer API...
+2026-10-26 13:43:48,181 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-26 13:43:50,099 - INFO - Loaded en_core_web_md
+2026-10-26 13:43:50,099 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-26 13:47:19,087 - INFO - Starting ATS Resume Analyzer API...
+2026-10-26 13:47:19,087 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-26 13:47:21,115 - INFO - Loaded en_core_web_md
+2026-10-26 13:47:21,115 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-26 13:47:40,935 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-26 13:47:40,935 - INFO - All models loaded. API is ready to serve requests.
+2026-10-26 13:49:55,253 - INFO - shutting down the api!!
+2026-10-26 14:03:33,587 - INFO - Starting ATS Resume Analyzer API...
+2026-10-26 14:03:33,587 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-26 14:08:28,490 - INFO - Starting ATS Resume Analyzer API...
+2026-10-26 14:08:28,490 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-26 14:08:30,495 - INFO - Loaded en_core_web_md
+2026-10-26 14:08:30,495 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-26 14:08:42,695 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-26 14:08:42,695 - INFO - All models loaded. API is ready to serve requests.
+2026-10-26 14:09:16,747 - INFO - parse_Resume_file: parsing file :SauravResume-1.pdf
+2026-10-26 14:09:16,941 - INFO - parse_resume_file: Extracted 4124 chars from SauravResume-1.pdf
+2026-10-26 14:09:16,941 - INFO - Parsed 'SauravResume-1.pdf': 4124 chars extracted
+2026-10-26 14:09:17,567 - ERROR - Full analysis pipeline failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:11:34,184 - INFO - parse_Resume_file: parsing file :SauravResume-1.pdf
+2026-10-26 14:11:34,260 - INFO - parse_resume_file: Extracted 4124 chars from SauravResume-1.pdf
+2026-10-26 14:11:34,260 - INFO - Parsed 'SauravResume-1.pdf': 4124 chars extracted
+2026-10-26 14:11:34,605 - ERROR - Full analysis pipeline failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
