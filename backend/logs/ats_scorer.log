@@ -80,3 +80,4 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-05-31 16:36:26,566 - INFO - Groq parsed experience count: 0
 2026-05-31 16:36:28,793 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-06-07 01:06:33,730 - INFO - shutting down the api!!
