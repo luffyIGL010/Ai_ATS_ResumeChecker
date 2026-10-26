@@ -42,6 +42,9 @@ python -m venv venv
 source venv/bin/activate         # Windows: venv\Scripts\activate
 ```
 
+Activate this virtual environment in each terminal before running the backend
+or frontend so both use the installed project dependencies.
+
 ### 2. Install dependencies
 
 ```bash
@@ -80,7 +83,7 @@ The Streamlit frontend also reads Supabase config from `frontend/.streamlit/secr
 From the project root:
 
 ```bash
-uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+python -m uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 The API is now at `http://localhost:8000`.
@@ -90,7 +93,7 @@ The API is now at `http://localhost:8000`.
 In a new terminal (with the venv activated):
 
 ```bash
-streamlit run frontend/streamlit_app.py
+python -m streamlit run frontend/streamlit_app.py
 ```
 
 The app opens at `http://localhost:8501`.
