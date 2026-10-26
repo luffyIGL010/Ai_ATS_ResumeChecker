@@ -85,3 +85,10 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-10-26 13:43:48,181 - INFO - Loading spaCy NLP model: en_core_web_md
 2026-10-26 13:43:50,099 - INFO - Loaded en_core_web_md
 2026-10-26 13:43:50,099 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-26 13:47:19,087 - INFO - Starting ATS Resume Analyzer API...
+2026-10-26 13:47:19,087 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-26 13:47:21,115 - INFO - Loaded en_core_web_md
+2026-10-26 13:47:21,115 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-26 13:47:40,935 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-26 13:47:40,935 - INFO - All models loaded. API is ready to serve requests.
+2026-10-26 13:49:55,253 - INFO - shutting down the api!!
