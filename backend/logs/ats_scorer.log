@@ -132,3 +132,14 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-10-26 14:15:23,221 - INFO - parse_resume_file: Extracted 4124 chars from SauravResume-1.pdf
 2026-10-26 14:15:23,221 - INFO - Parsed 'SauravResume-1.pdf': 4124 chars extracted
 2026-10-26 14:15:23,587 - ERROR - Full analysis pipeline failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:16:48,700 - INFO - shutting down the api!!
+2026-10-26 14:16:49,160 - INFO - Starting ATS Resume Analyzer API...
+2026-10-26 14:16:49,160 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-26 14:16:51,537 - INFO - Loaded en_core_web_md
+2026-10-26 14:16:51,537 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-26 14:17:07,283 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-26 14:17:07,283 - INFO - All models loaded. API is ready to serve requests.
+2026-10-26 14:17:23,291 - WARNING - Groq resume parser unavailable; using local text extraction instead: GROQ_API_KEY not set
+2026-10-26 14:17:23,293 - INFO - Groq parsed summary: 'Backend engineer building APIs.'
+2026-10-26 14:17:23,293 - INFO - Groq parsed skills count: 4
+2026-10-26 14:17:23,293 - INFO - Groq parsed experience count: 1
