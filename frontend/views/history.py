@@ -6,7 +6,13 @@ from frontend.services import api_client
 
 def _show_backend_error(exc: Exception) -> None:
     if isinstance(exc, requests.ConnectionError):
-        st.error("Could not reach the backend. Is it running on port 8000?")
+        st.error(
+            f"Could not connect to the backend at `{api_client.backend_url()}`. "
+            "For local development, start it with "
+            "`uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000`. "
+            "For a deployed frontend, configure `backend.url` in Streamlit secrets "
+            "or set the `BACKEND_URL` environment variable."
+        )
     elif isinstance(exc, requests.HTTPError) and exc.response is not None:
         st.error(f"Backend returned {exc.response.status_code}: {exc.response.text}")
     else:

@@ -1,17 +1,25 @@
+import os
 from typing import Any, Dict, List
 
 import requests
 import streamlit as st
 
 
-DEFAULT_BACKEND_URL = "http://localhost:8000"
+DEFAULT_BACKEND_URL = "http://127.0.0.1:8000"
 
 
-def _backend_url() -> str:
+def backend_url() -> str:
+    configured_url = None
     try:
-        return st.secrets["backend"]["url"]
+        configured_url = st.secrets["backend"]["url"]
     except (KeyError, FileNotFoundError):
-        return DEFAULT_BACKEND_URL
+        pass
+
+    return (
+        configured_url
+        or os.getenv("BACKEND_URL")
+        or DEFAULT_BACKEND_URL
+    ).strip().rstrip("/")
 
 
 def _auth_headers(access_token: str) -> Dict[str, str]:
@@ -19,7 +27,7 @@ def _auth_headers(access_token: str) -> Dict[str, str]:
 
 
 def health_check() -> Dict[str, Any]:
-    response = requests.get(f"{_backend_url()}/api/v1/health", timeout=10)
+    response = requests.get(f"{backend_url()}/api/v1/health", timeout=10)
     response.raise_for_status()
     return response.json()
 
@@ -34,7 +42,7 @@ def analyze_resume(
     }
     data = {"job_description": job_description}
     response = requests.post(
-        f"{_backend_url()}/api/v1/analyze-resume",
+        f"{backend_url()}/api/v1/analyze-resume",
         files=files,
         data=data,
         headers=_auth_headers(access_token),
@@ -46,7 +54,7 @@ def analyze_resume(
 
 def get_history(access_token: str) -> List[Dict[str, Any]]:
     response = requests.get(
-        f"{_backend_url()}/api/v1/history",
+        f"{backend_url()}/api/v1/history",
         headers=_auth_headers(access_token),
         timeout=30,
     )
@@ -56,7 +64,7 @@ def get_history(access_token: str) -> List[Dict[str, Any]]:
 
 def delete_history_entry(analysis_id: str, access_token: str) -> None:
     response = requests.delete(
-        f"{_backend_url()}/api/v1/history/{analysis_id}",
+        f"{backend_url()}/api/v1/history/{analysis_id}",
         headers=_auth_headers(access_token),
         timeout=30,
     )
@@ -65,7 +73,7 @@ def delete_history_entry(analysis_id: str, access_token: str) -> None:
 
 def generate_pdf(analysis_data: Dict[str, Any], access_token: str) -> bytes:
     response = requests.post(
-        f"{_backend_url()}/api/v1/generate-pdf",
+        f"{backend_url()}/api/v1/generate-pdf",
         json=analysis_data,
         headers=_auth_headers(access_token),
         timeout=60,
@@ -76,7 +84,7 @@ def generate_pdf(analysis_data: Dict[str, Any], access_token: str) -> bytes:
 
 def get_history_pdf(analysis_id: str, access_token: str) -> bytes:
     response = requests.get(
-        f"{_backend_url()}/api/v1/history/{analysis_id}/pdf",
+        f"{backend_url()}/api/v1/history/{analysis_id}/pdf",
         headers=_auth_headers(access_token),
         timeout=60,
     )

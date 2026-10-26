@@ -95,6 +95,27 @@ streamlit run frontend/streamlit_app.py
 
 The app opens at `http://localhost:8501`.
 
+### Backend URL configuration
+
+The frontend defaults to `http://127.0.0.1:8000`, which works when both apps
+run on the same machine. The backend must be running separately; open
+`http://127.0.0.1:8000/api/v1/health` to confirm it is ready.
+
+If the frontend is deployed (for example, on Streamlit Community Cloud),
+`localhost` points to the frontend container, not your backend. Deploy the
+backend at a publicly reachable HTTPS URL and configure that URL in Streamlit
+secrets:
+
+```toml
+[backend]
+url = "https://your-backend.example.com"
+```
+
+Alternatively, set the `BACKEND_URL` environment variable on the frontend
+deployment. If running the backend with `python -m backend.main`, its listen
+address and port can be set with `HOST` and `PORT` (defaults: `0.0.0.0` and
+`8000`).
+
 ## Notes for students
 
 - **Never commit `.env` or `secrets.toml`** — they hold API keys. Both are in `.gitignore`; check before you push.
