@@ -104,3 +104,7 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-10-26 14:09:16,941 - INFO - parse_resume_file: Extracted 4124 chars from SauravResume-1.pdf
 2026-10-26 14:09:16,941 - INFO - Parsed 'SauravResume-1.pdf': 4124 chars extracted
 2026-10-26 14:09:17,567 - ERROR - Full analysis pipeline failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:11:34,184 - INFO - parse_Resume_file: parsing file :SauravResume-1.pdf
+2026-10-26 14:11:34,260 - INFO - parse_resume_file: Extracted 4124 chars from SauravResume-1.pdf
+2026-10-26 14:11:34,260 - INFO - Parsed 'SauravResume-1.pdf': 4124 chars extracted
+2026-10-26 14:11:34,605 - ERROR - Full analysis pipeline failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
