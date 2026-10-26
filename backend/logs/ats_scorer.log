@@ -108,3 +108,23 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-10-26 14:11:34,260 - INFO - parse_resume_file: Extracted 4124 chars from SauravResume-1.pdf
 2026-10-26 14:11:34,260 - INFO - Parsed 'SauravResume-1.pdf': 4124 chars extracted
 2026-10-26 14:11:34,605 - ERROR - Full analysis pipeline failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:11:45,089 - INFO - parse_Resume_file: parsing file :SauravResume-1.pdf
+2026-10-26 14:11:45,153 - INFO - parse_resume_file: Extracted 4124 chars from SauravResume-1.pdf
+2026-10-26 14:11:45,153 - INFO - Parsed 'SauravResume-1.pdf': 4124 chars extracted
+2026-10-26 14:11:47,278 - ERROR - Full analysis pipeline failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:11:48,543 - INFO - parse_Resume_file: parsing file :SauravResume-1.pdf
+2026-10-26 14:11:48,613 - INFO - parse_resume_file: Extracted 4124 chars from SauravResume-1.pdf
+2026-10-26 14:11:48,613 - INFO - Parsed 'SauravResume-1.pdf': 4124 chars extracted
+2026-10-26 14:11:48,741 - ERROR - Full analysis pipeline failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:12:16,796 - INFO - parse_Resume_file: parsing file :Saurav_Resume_Fresh.pdf
+2026-10-26 14:12:16,865 - INFO - parse_resume_file: Extracted 3945 chars from Saurav_Resume_Fresh.pdf
+2026-10-26 14:12:16,865 - INFO - Parsed 'Saurav_Resume_Fresh.pdf': 3945 chars extracted
+2026-10-26 14:12:17,646 - ERROR - Full analysis pipeline failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:14:04,187 - INFO - parse_Resume_file: parsing file :Saurav_Resume_Fresh.pdf
+2026-10-26 14:14:04,252 - INFO - parse_resume_file: Extracted 3945 chars from Saurav_Resume_Fresh.pdf
+2026-10-26 14:14:04,252 - INFO - Parsed 'Saurav_Resume_Fresh.pdf': 3945 chars extracted
+2026-10-26 14:14:04,626 - ERROR - Full analysis pipeline failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:14:11,870 - INFO - parse_Resume_file: parsing file :SauravResume-1.pdf
+2026-10-26 14:14:11,948 - INFO - parse_resume_file: Extracted 4124 chars from SauravResume-1.pdf
+2026-10-26 14:14:11,948 - INFO - Parsed 'SauravResume-1.pdf': 4124 chars extracted
+2026-10-26 14:14:12,244 - ERROR - Full analysis pipeline failed: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
