@@ -143,3 +143,71 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-10-26 14:17:23,293 - INFO - Groq parsed summary: 'Backend engineer building APIs.'
 2026-10-26 14:17:23,293 - INFO - Groq parsed skills count: 4
 2026-10-26 14:17:23,293 - INFO - Groq parsed experience count: 1
+2026-10-26 14:19:24,749 - INFO - parse_Resume_file: parsing file :SauravResume-1.pdf
+2026-10-26 14:19:24,967 - INFO - parse_resume_file: Extracted 4124 chars from SauravResume-1.pdf
+2026-10-26 14:19:24,967 - INFO - Parsed 'SauravResume-1.pdf': 4124 chars extracted
+2026-10-26 14:19:25,729 - WARNING - Groq resume parser unavailable; using local text extraction instead: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:19:25,734 - INFO - Groq parsed summary: 'AI/ML engineer (B.Tech, 2026) with hands-on project experience in multi-agent LLM applications, comp'
+2026-10-26 14:19:25,734 - INFO - Groq parsed skills count: 17
+2026-10-26 14:19:25,734 - INFO - Groq parsed experience count: 0
+2026-10-26 14:19:29,590 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-10-26 14:19:43,460 - INFO - parse_Resume_file: parsing file :Saurav_Resume_Fresh.pdf
+2026-10-26 14:19:43,529 - INFO - parse_resume_file: Extracted 3945 chars from Saurav_Resume_Fresh.pdf
+2026-10-26 14:19:43,529 - INFO - Parsed 'Saurav_Resume_Fresh.pdf': 3945 chars extracted
+2026-10-26 14:19:45,656 - WARNING - Groq resume parser unavailable; using local text extraction instead: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:19:45,660 - INFO - Groq parsed summary: 'AI/ML engineer (B.Tech, 2026) with hands-on project experience in multi-agent LLM applications, comp'
+2026-10-26 14:19:45,660 - INFO - Groq parsed skills count: 17
+2026-10-26 14:19:45,660 - INFO - Groq parsed experience count: 0
+2026-10-26 14:19:47,740 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-10-26 14:19:54,056 - INFO - parse_Resume_file: parsing file :SauravResume.pdf
+2026-10-26 14:19:54,138 - INFO - parse_resume_file: Extracted 4124 chars from SauravResume.pdf
+2026-10-26 14:19:54,138 - INFO - Parsed 'SauravResume.pdf': 4124 chars extracted
+2026-10-26 14:19:56,664 - WARNING - Groq resume parser unavailable; using local text extraction instead: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:19:56,669 - INFO - Groq parsed summary: 'AI/ML engineer (B.Tech, 2026) with hands-on project experience in multi-agent LLM applications, comp'
+2026-10-26 14:19:56,669 - INFO - Groq parsed skills count: 17
+2026-10-26 14:19:56,669 - INFO - Groq parsed experience count: 0
+2026-10-26 14:19:59,189 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-10-26 14:20:04,658 - INFO - parse_Resume_file: parsing file :Saurav_Resume.pdf
+2026-10-26 14:20:04,662 - WARNING - Primary method failed, trying fallback: pdfplumber extracted no text
+2026-10-26 14:20:04,662 - ERROR - Error in fallback: PyPDF2 extracted no text
+2026-10-26 14:20:04,662 - ERROR - Error in extract_text_from_pdf: PyPDF2 extracted no text
+2026-10-26 14:20:04,662 - ERROR - File parsing failed: Failed to extract text from PDF using both pdfplumber and PyPDF2. The PDF may be corrupted, password-protected, or contain only scanned images. Please ensure it contains selectable text.
+2026-10-26 14:20:17,329 - INFO - parse_Resume_file: parsing file :Saurav_Rauthan_Resume_PW_AI_Engineer_Intern.pdf
+2026-10-26 14:20:17,385 - INFO - parse_resume_file: Extracted 3667 chars from Saurav_Rauthan_Resume_PW_AI_Engineer_Intern.pdf
+2026-10-26 14:20:17,385 - INFO - Parsed 'Saurav_Rauthan_Resume_PW_AI_Engineer_Intern.pdf': 3667 chars extracted
+2026-10-26 14:20:17,660 - WARNING - Groq resume parser unavailable; using local text extraction instead: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:20:17,666 - INFO - Groq parsed summary: 'AI/ML engineer (B.Tech AI & ML, 2026) who builds and ships end-to-end AI tools: Python/FastAPI backe'
+2026-10-26 14:20:17,666 - INFO - Groq parsed skills count: 18
+2026-10-26 14:20:17,666 - INFO - Groq parsed experience count: 0
+2026-10-26 14:20:18,317 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-10-26 14:26:15,703 - INFO - parse_Resume_file: parsing file :aksah_bad_resume.pdf
+2026-10-26 14:26:15,748 - INFO - parse_resume_file: Extracted 1513 chars from aksah_bad_resume.pdf
+2026-10-26 14:26:15,748 - INFO - Parsed 'aksah_bad_resume.pdf': 1513 chars extracted
+2026-10-26 14:26:16,077 - WARNING - Groq resume parser unavailable; using local text extraction instead: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:26:16,079 - INFO - Groq parsed summary: 'To work in a good company where I can give my hard work and learn many things and grow with the comp'
+2026-10-26 14:26:16,079 - INFO - Groq parsed skills count: 3
+2026-10-26 14:26:16,079 - INFO - Groq parsed experience count: 1
+2026-10-26 14:26:17,749 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-10-26 14:28:21,023 - INFO - parse_Resume_file: parsing file :aksah_bad_resume.pdf
+2026-10-26 14:28:21,057 - INFO - parse_resume_file: Extracted 1513 chars from aksah_bad_resume.pdf
+2026-10-26 14:28:21,057 - INFO - Parsed 'aksah_bad_resume.pdf': 1513 chars extracted
+2026-10-26 14:28:21,708 - WARNING - Groq resume parser unavailable; using local text extraction instead: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:28:21,712 - INFO - Groq parsed summary: 'To work in a good company where I can give my hard work and learn many things and grow with the comp'
+2026-10-26 14:28:21,712 - INFO - Groq parsed skills count: 3
+2026-10-26 14:28:21,712 - INFO - Groq parsed experience count: 1
+2026-10-26 14:28:22,758 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-10-26 14:28:28,205 - INFO - parse_Resume_file: parsing file :bad_resume_saurav.pdf
+2026-10-26 14:28:28,211 - INFO - parse_resume_file: Extracted 42 chars from bad_resume_saurav.pdf
+2026-10-26 14:28:28,211 - INFO - Parsed 'bad_resume_saurav.pdf': 42 chars extracted
+2026-10-26 14:28:29,586 - WARNING - Groq resume parser unavailable; using local text extraction instead: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2026-10-26 14:28:29,587 - INFO - Groq parsed summary: 'Saurav Fresher looking for a job in AI/ML.'
+2026-10-26 14:28:29,587 - INFO - Groq parsed skills count: 0
+2026-10-26 14:28:29,587 - INFO - Groq parsed experience count: 0
+2026-10-26 14:28:30,081 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
