@@ -427,3 +427,24 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-10-28 22:13:20,136 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
 2026-10-28 22:13:31,588 - INFO - Loaded all-MiniLM-L6-v2
 2026-10-28 22:13:31,588 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 23:08:52,198 - INFO - shutting down the api!!
+2026-10-28 23:08:52,810 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 23:08:52,810 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 23:08:55,608 - INFO - Loaded en_core_web_md
+2026-10-28 23:08:55,608 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 23:09:12,829 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-28 23:09:12,829 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 23:09:12,931 - INFO - shutting down the api!!
+2026-10-28 23:09:13,448 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 23:09:13,448 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 23:09:16,022 - INFO - Loaded en_core_web_md
+2026-10-28 23:09:16,022 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 23:09:28,517 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-28 23:09:28,517 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 23:09:28,619 - INFO - shutting down the api!!
+2026-10-28 23:09:29,120 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 23:09:29,120 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 23:09:31,646 - INFO - Loaded en_core_web_md
+2026-10-28 23:09:31,646 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 23:09:43,806 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-28 23:09:43,806 - INFO - All models loaded. API is ready to serve requests.
