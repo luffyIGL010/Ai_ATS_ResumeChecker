@@ -255,3 +255,5 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-10-28 20:46:29,613 - WARNING - Failed to load SentenceTransformer model: Cannot send a request, as the client has been closed.. Using dummy embedder.
 2026-10-28 20:46:29,613 - INFO - Dummy embedder initialized
 2026-10-28 20:46:29,613 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 20:46:36,089 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-28 20:46:36,089 - INFO - All models loaded. API is ready to serve requests.
