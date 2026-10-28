@@ -2,6 +2,28 @@ import streamlit as st
 import sys
 from pathlib import Path
 
+# ====================  BEGIN INSERTED BLOCK  ====================
+import os
+
+
+BACKEND_URL_TO_USE = "http://127.0.0.1:8000"   # change the port if needed
+os.environ["BACKEND_URL"] = BACKEND_URL_TO_USE
+st.sidebar.info(f"🗒️  Backend URL: **{BACKEND_URL_TO_USE}**")
+# ====================   END INSERTED BLOCK   ====================
+
+# Ensure the repo root is on sys.path so absolute imports work
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+# Now import the UI entry point
+from frontend.views.landing import main_page  # absolute import
+
+# ... any other imports ...
+
+if __name__ == "__main__":
+    st.set_page_config(page_title="ATS Resume Checker", layout="wide")
+    main_page()   # your existing Streamlit UI entry point
 # Put the repo root on sys.path so `from frontend.views import ...` resolves
 # regardless of the directory streamlit was launched from.
 sys.path.insert(0, str(Path(__file__).parent.parent))
