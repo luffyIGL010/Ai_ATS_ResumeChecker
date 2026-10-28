@@ -97,3 +97,8 @@ def render():
         #### 3️⃣ Get Actionable Feedback
         Receive detailed recommendations to improve your resume
         """)
+
+
+def main_page():
+    """Compatibility entry point for deployments using the older import name."""
+    render()
