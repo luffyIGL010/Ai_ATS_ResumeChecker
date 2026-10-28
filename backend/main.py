@@ -35,9 +35,17 @@ async def lifespan(app:FastAPI):
         logger.info('Loaded blank English model (fallback)')
 
     logger.info(f'Loading SentenceTransformer: {SENTENCE_TRANSFORMER_MODEL}')
-    from sentence_transformers import SentenceTransformer
-    app.state.embedder = SentenceTransformer(SENTENCE_TRANSFORMER_MODEL)
-    logger.info(f'Loaded {SENTENCE_TRANSFORMER_MODEL}')
+    try:
+        from sentence_transformers import SentenceTransformer
+        app.state.embedder = SentenceTransformer(SENTENCE_TRANSFORMER_MODEL)
+        logger.info(f'Loaded {SENTENCE_TRANSFORMER_MODEL}')
+    except Exception as e:
+        logger.warning(f'Failed to load SentenceTransformer model: {e}. Using dummy embedder.')
+        class DummyEmbedder:
+            def encode(self, *args, **kwargs):
+                return []
+        app.state.embedder = DummyEmbedder()
+        logger.info('Dummy embedder initialized')
 
     logger.info('All models loaded. API is ready to serve requests.')
 
