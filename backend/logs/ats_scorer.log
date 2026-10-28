@@ -211,3 +211,6 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-10-26 14:28:29,587 - INFO - Groq parsed experience count: 0
 2026-10-26 14:28:30,081 - ERROR - Failed to save analysis to Supabase: Client error '404 Not Found' for url 'https://hfksxteqsepjwgijmkxq.supabase.co/rest/v1/analyses'
 For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-10-28 20:25:50,427 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 20:25:50,427 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 20:25:54,664 - WARNING - en_core_web_md not found — falling back to en_core_web_sm
