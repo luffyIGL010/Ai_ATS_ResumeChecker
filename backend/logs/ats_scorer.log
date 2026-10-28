@@ -227,3 +227,31 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-10-28 20:34:55,973 - WARNING - Failed to load SentenceTransformer model: Cannot send a request, as the client has been closed.. Using dummy embedder.
 2026-10-28 20:34:55,973 - INFO - Dummy embedder initialized
 2026-10-28 20:34:55,973 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 20:36:50,291 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 20:36:50,291 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 20:36:51,383 - WARNING - en_core_web_md not found — falling back to a blank English model
+2026-10-28 20:36:51,461 - INFO - Loaded blank English model (fallback)
+2026-10-28 20:36:51,461 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 20:36:56,484 - WARNING - Failed to load SentenceTransformer model: Cannot send a request, as the client has been closed.. Using dummy embedder.
+2026-10-28 20:36:56,484 - INFO - Dummy embedder initialized
+2026-10-28 20:36:56,484 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 20:41:25,009 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 20:41:25,009 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 20:41:27,497 - INFO - Loaded en_core_web_md
+2026-10-28 20:41:27,497 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 20:41:42,173 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-28 20:41:42,173 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 20:46:22,409 - INFO - shutting down the api!!
+2026-10-28 20:46:22,464 - INFO - shutting down the api!!
+2026-10-28 20:46:22,782 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 20:46:22,782 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 20:46:22,899 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 20:46:22,899 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 20:46:24,158 - WARNING - en_core_web_md not found — falling back to a blank English model
+2026-10-28 20:46:24,255 - INFO - Loaded blank English model (fallback)
+2026-10-28 20:46:24,255 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 20:46:24,620 - INFO - Loaded en_core_web_md
+2026-10-28 20:46:24,620 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 20:46:29,613 - WARNING - Failed to load SentenceTransformer model: Cannot send a request, as the client has been closed.. Using dummy embedder.
+2026-10-28 20:46:29,613 - INFO - Dummy embedder initialized
+2026-10-28 20:46:29,613 - INFO - All models loaded. API is ready to serve requests.
