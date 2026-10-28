@@ -70,13 +70,24 @@ Copy the template and fill in your keys:
 cp .env.example .env
 ```
 
-You need:
+Configure `SUPABASE_URL`, `SUPABASE_KEY` (service role), `SUPABASE_JWT_SECRET`,
+and `GROQ_API_KEY` for the backend. The Streamlit frontend only needs the
+Supabase URL and the public anon key. Keep the service-role key, JWT secret,
+and Groq key out of Streamlit secrets and source control.
 
-- A **Supabase** project — grab `SUPABASE_URL`, `SUPABASE_KEY` (service role), and `SUPABASE_ANON_KEY` from Project Settings → API.
-- A **Groq** API key from [console.groq.com](https://console.groq.com).
-- (Optional) Google OAuth set up in the Supabase dashboard if you want Google sign-in.
+For local development, create `.streamlit/secrets.toml` at the repository root:
 
-The Streamlit frontend also reads Supabase config from `frontend/.streamlit/secrets.toml`. Copy `secrets.toml.example` to `secrets.toml` and fill it in.
+```toml
+[supabase]
+SUPABASE_URL = "https://your-project.supabase.co"
+SUPABASE_ANON_KEY = "your-public-anon-key"
+
+[backend]
+url = "http://127.0.0.1:8000"
+```
+
+Alternatively, set `SUPABASE_URL` and `SUPABASE_ANON_KEY` in the frontend's
+environment. (Optional) Configure Google OAuth in the Supabase dashboard.
 
 ### 4. Run the backend
 
@@ -106,13 +117,17 @@ run on the same machine. The backend must be running separately; open
 
 If the frontend is deployed (for example, on Streamlit Community Cloud),
 `localhost` points to the frontend container, not your backend. Deploy the
-backend at a publicly reachable HTTPS URL and configure that URL in Streamlit
-secrets:
+backend separately at a publicly reachable HTTPS URL, then add its API base
+URL to the app's Streamlit Cloud secrets (or set `BACKEND_URL` in the frontend
+environment):
 
 ```toml
 [backend]
 url = "https://your-backend.example.com"
 ```
+
+This is the backend's public base URL, not a Supabase URL. The Streamlit app
+uses it to call the backend API; it does not expose backend credentials.
 
 Alternatively, set the `BACKEND_URL` environment variable on the frontend
 deployment. If running the backend with `python -m backend.main`, its listen
