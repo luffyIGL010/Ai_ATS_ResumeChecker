@@ -214,3 +214,8 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-10-28 20:25:50,427 - INFO - Starting ATS Resume Analyzer API...
 2026-10-28 20:25:50,427 - INFO - Loading spaCy NLP model: en_core_web_md
 2026-10-28 20:25:54,664 - WARNING - en_core_web_md not found — falling back to en_core_web_sm
+2026-10-28 20:32:55,598 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 20:32:55,598 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 20:32:56,966 - WARNING - en_core_web_md not found — falling back to a blank English model
+2026-10-28 20:32:57,067 - INFO - Loaded blank English model (fallback)
+2026-10-28 20:32:57,067 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
