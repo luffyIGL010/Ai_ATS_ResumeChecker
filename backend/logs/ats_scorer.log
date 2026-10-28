@@ -323,3 +323,41 @@ For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/St
 2026-10-28 21:00:32,887 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
 2026-10-28 21:00:45,372 - INFO - Loaded all-MiniLM-L6-v2
 2026-10-28 21:00:45,373 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 21:06:13,837 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 21:06:13,838 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 21:06:15,640 - INFO - Loaded en_core_web_md
+2026-10-28 21:06:15,640 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 21:06:37,849 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-28 21:06:37,849 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 21:07:45,969 - INFO - shutting down the api!!
+2026-10-28 21:07:45,986 - INFO - shutting down the api!!
+2026-10-28 21:07:46,339 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 21:07:46,339 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 21:07:46,450 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 21:07:46,450 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 21:07:47,587 - WARNING - en_core_web_md not found — falling back to a blank English model
+2026-10-28 21:07:47,669 - INFO - Loaded blank English model (fallback)
+2026-10-28 21:07:47,670 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 21:07:48,008 - INFO - Loaded en_core_web_md
+2026-10-28 21:07:48,008 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 21:07:52,559 - WARNING - Failed to load SentenceTransformer model: Cannot send a request, as the client has been closed.. Using dummy embedder.
+2026-10-28 21:07:52,560 - INFO - Dummy embedder initialized
+2026-10-28 21:07:52,560 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 21:07:59,983 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-28 21:07:59,983 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 21:08:37,445 - INFO - shutting down the api!!
+2026-10-28 21:08:37,473 - INFO - shutting down the api!!
+2026-10-28 21:08:37,900 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 21:08:37,900 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 21:08:37,909 - INFO - Starting ATS Resume Analyzer API...
+2026-10-28 21:08:37,909 - INFO - Loading spaCy NLP model: en_core_web_md
+2026-10-28 21:08:39,544 - WARNING - en_core_web_md not found — falling back to a blank English model
+2026-10-28 21:08:39,648 - INFO - Loaded blank English model (fallback)
+2026-10-28 21:08:39,648 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 21:08:40,485 - INFO - Loaded en_core_web_md
+2026-10-28 21:08:40,485 - INFO - Loading SentenceTransformer: all-MiniLM-L6-v2
+2026-10-28 21:08:45,089 - WARNING - Failed to load SentenceTransformer model: Cannot send a request, as the client has been closed.. Using dummy embedder.
+2026-10-28 21:08:45,089 - INFO - Dummy embedder initialized
+2026-10-28 21:08:45,090 - INFO - All models loaded. API is ready to serve requests.
+2026-10-28 21:08:55,606 - INFO - Loaded all-MiniLM-L6-v2
+2026-10-28 21:08:55,606 - INFO - All models loaded. API is ready to serve requests.

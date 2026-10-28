@@ -11,8 +11,14 @@ os.environ["BACKEND_URL"] = BACKEND_URL_TO_USE
 st.sidebar.info(f"🗒️  Backend URL: **{BACKEND_URL_TO_USE}**")
 # ====================   END INSERTED BLOCK   ====================
 
-# Now import the rest of your app (these imports will see the env‑var)
-from frontend.views.landing import main_page   # ← example import
+# Ensure the repo root is on sys.path so absolute imports work
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+# Now import the UI entry point
+from frontend.views.landing import main_page  # absolute import
+
 # ... any other imports ...
 
 if __name__ == "__main__":
